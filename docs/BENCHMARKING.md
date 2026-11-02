@@ -72,6 +72,41 @@ the anchor list so that each match scores roughly between 20% and 80%.
 - Each Elo figure is shown with its ± interval. A gain smaller than its error bar is
   reported as "no significant change".
 
+## Current setup (as implemented)
+
+```
+python -m harness setup                       # download pinned Stockfish (sf_19) into tools/
+python -m harness calibrate --games 100       # rate the sub-1320 anchors -> telemetry/anchors.json
+python -m harness run --version <tag> --label "<feature>"   # bench + Elo -> telemetry/results.jsonl
+python -m harness report                      # README table
+```
+
+- Time control: **10+0.1**, 24 opening lines each played with both colors, max 400 plies.
+- Elo: probe 10 games per ladder rung until the engine scores under 50%, then split the
+  remaining games between the two rungs that bracket it (200 games total).
+- Anchor ladder (calibrated 2026-11-02, 100 games per adjacent pair):
+
+  | Anchor | Rating | 95% CI |
+  |---|---|---|
+  | random mover | 217 | 7–349 |
+  | greedy (1-ply material) | 697 | 531–819 |
+  | Stockfish UCI_Elo 1320, depth 1 | 1230 | 1135–1319 |
+  | Stockfish UCI_Elo 1320, depth 3 | 1254 | 1183–1320 |
+  | Stockfish UCI_Elo 1320 / 1500 / 1700 / 1900 / 2100 / 2400 | fixed | n/a |
+
+### Known limitations
+- The engine's ± interval covers game noise only, not the uncertainty in the calibrated
+  anchors. Below 1320, add roughly ±90 for anchor uncertainty.
+- Stockfish calibrates `UCI_Elo` at 60+0.6. The harness uses 10+0.1 for throughput, so
+  the absolute scale is approximate. Comparisons *between versions* are unaffected,
+  because every version uses the same conditions.
+- The two depth-limited rungs (d1 and d3) came out almost equal in strength, and greedy
+  scored 0 wins, 8 draws and 92 losses against d1. A rung between them (e.g. Stockfish at a
+  small node limit) would tighten the 700–1200 range.
+- Run benchmarks on an otherwise idle machine. The same bench measured 19.8k nps while
+  calibration games were running and 32.9k nps on an idle machine.
+- The tactics suite (WAC) is not implemented yet.
+
 ## Speed note
 Elo is measured on a local machine. The live site runs the same code on Vercel's
 serverless CPUs, which are slower, so it plays weaker at the same time per move. The
