@@ -29,7 +29,7 @@ def make_games(player, opponent, wins, draws, losses):
 
 
 def test_single_anchor_mle_without_prior():
-    games = make_games("engine", "anchor", wins=60, draws=30, losses=30)  # 75%
+    games = make_games("engine", "anchor", wins=60, draws=30, losses=10)  # 75 / 100 = 75%
     ratings = fit_ratings(games, fixed={"anchor": 1500.0}, prior_draws=0.0)
     assert ratings["anchor"] == 1500.0
     assert ratings["engine"] == pytest.approx(1500 + elo_from_score(0.75), abs=1.0)
