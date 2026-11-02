@@ -6,9 +6,11 @@ focused match between the two bounding anchors, and estimates Elo via MLE.
 
 import json
 import os
+import time
 
 from harness.match import TimeControl, play_match
 from harness.rating import bootstrap_interval, fit_ratings
+from harness.stats import summarize
 from harness.telemetry import ANCHORS_PATH, save_pgn
 from harness.versions import ANCHOR_LADDER, EngineSpec, anchor_spec
 
@@ -38,6 +40,7 @@ def estimate_elo(
             f"Missing ratings for {missing_anchors}. Run 'python -m harness calibrate' first."
         )
 
+    started = time.perf_counter()
     all_game_results = []
     crossed_idx = len(ANCHOR_LADDER)
 
@@ -129,6 +132,7 @@ def estimate_elo(
         if opp_name not in opponents:
             opponents[opp_name] = {
                 "rating": ratings_data[opp_name]["rating"],
+                "rating_ci": [ratings_data[opp_name]["ci_lo"], ratings_data[opp_name]["ci_hi"]],
                 "w": 0,
                 "d": 0,
                 "l": 0,
@@ -151,4 +155,8 @@ def estimate_elo(
         "tc": str(tc),
         "opponents": opponents,
         "pgn_path": pgn_path,
+        "probe_games": probe_games,
+        "anchors_meta": anchors_file.get("meta", {}),
+        "duration_s": round(time.perf_counter() - started, 1),
+        "stats": summarize(all_game_results, spec.name),
     }

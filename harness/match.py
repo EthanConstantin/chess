@@ -5,7 +5,7 @@ strict time controls and opening books.
 """
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 import time
 
 import chess
@@ -57,6 +57,9 @@ class GameResult:
     termination: str
     plies: int
     pgn: str
+    # Per-move telemetry for each side: {"time_s", "depth", "nodes"} (depth/nodes may be None).
+    white_moves: list[dict] = field(default_factory=list)
+    black_moves: list[dict] = field(default_factory=list)
 
 
 def play_game(
@@ -83,6 +86,8 @@ def play_game(
         for move_uci in opening.split():
             board.push_uci(move_uci)
 
+        white_moves: list[dict] = []
+        black_moves: list[dict] = []
         white_clock = Clock(tc.base_s, tc.inc_s)
         black_clock = Clock(tc.base_s, tc.inc_s)
 
@@ -130,7 +135,7 @@ def play_game(
 
                 t0 = time.perf_counter()
                 try:
-                    fut = move_pool.submit(curr_engine.play, board, limit)
+                    fut = move_pool.submit(curr_engine.play, board, limit, info=chess.engine.INFO_BASIC)
                     play_res = fut.result(timeout=timeout)
                     elapsed = time.perf_counter() - t0
                 except Exception as err:
@@ -145,6 +150,12 @@ def play_game(
                     white_score = 0.0 if is_white else 1.0
                     termination = f"Illegal move ({move}) by {curr_spec.name}"
                     break
+
+                (white_moves if is_white else black_moves).append({
+                    "time_s": round(elapsed, 4),
+                    "depth": play_res.info.get("depth"),
+                    "nodes": play_res.info.get("nodes"),
+                })
 
                 if curr_spec.limit is None:
                     if not curr_clock.spend(elapsed):
@@ -173,6 +184,8 @@ def play_game(
             termination=termination,
             plies=len(board.move_stack),
             pgn=str(pgn_game),
+            white_moves=white_moves,
+            black_moves=black_moves,
         )
 
     finally:

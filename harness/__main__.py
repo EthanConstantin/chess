@@ -8,11 +8,14 @@ import argparse
 import os
 from pathlib import Path
 import re
+import subprocess
 import sys
+import time
 
 from harness.bench import run_bench
 from harness.calibrate import calibrate
 from harness.elo import estimate_elo
+from harness.evaluations import write_evaluations
 from harness.match import TimeControl, play_match
 from harness.rating import bootstrap_interval, fit_ratings
 from harness.stockfish import install_stockfish
@@ -34,6 +37,12 @@ if sys.stdout and hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     except Exception:
         pass
+
+
+def _git(*args: str) -> str:
+    """Return git output for the harness repo (empty string if git fails)."""
+    proc = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
+    return proc.stdout.strip() if proc.returncode == 0 else ""
 
 
 def cmd_setup(_args: argparse.Namespace) -> None:
@@ -82,6 +91,7 @@ def cmd_elo(args: argparse.Namespace) -> None:
 def cmd_run(args: argparse.Namespace) -> None:
     """Run bench and Elo estimation, recording results to telemetry."""
     spec = resolve_version(args.version)
+    started = time.perf_counter()
     print(f"Running bench for {args.version}...")
     bench_data = run_bench(spec, depth=args.depth)
 
@@ -98,6 +108,15 @@ def cmd_run(args: argparse.Namespace) -> None:
         "label": args.label,
         "sha": spec.sha,
         "env": environment(),
+        "run": {
+            "harness_sha": _git("rev-parse", "HEAD"),
+            "harness_dirty": bool(_git("status", "--porcelain", "--", "harness")),
+            "games": args.games,
+            "tc": args.tc,
+            "concurrency": args.concurrency,
+            "bench_depth": args.depth,
+            "duration_s": round(time.perf_counter() - started, 1),
+        },
         "bench": bench_data,
         "elo": elo_data,
     }
@@ -205,6 +224,8 @@ def cmd_report(_args: argparse.Namespace) -> None:
         replacement = rf"\g<1>{table_text}\n\g<2>"
         new_content = re.sub(pattern, replacement, content)
         readme_path.write_text(new_content, encoding="utf-8")
+
+    print(f"Wrote {write_evaluations(records)}")
 
 
 def main() -> None:
