@@ -1,4 +1,5 @@
-"""Negamax alpha-beta search with move ordering, quiescence and iterative deepening."""
+"""Negamax alpha-beta search: move ordering, quiescence, iterative deepening and a
+transposition table."""
 
 import time
 from collections.abc import Callable
@@ -14,6 +15,14 @@ MAX_DEPTH = 64
 # The clock is read once per this many nodes: often enough to stop within a few
 # milliseconds of the deadline, rarely enough to cost nothing measurable.
 TIME_CHECK_INTERVAL = 256
+
+
+# Transposition table bound types: the stored score is exact, or only a bound
+# because alpha-beta cut the search short.
+EXACT, LOWER, UPPER = 0, 1, 2
+# Each entry costs a few hundred bytes in Python; clear the table rather than
+# let a very long search grow without limit.
+TT_MAX_ENTRIES = 1_000_000
 
 
 class SearchTimeout(Exception):
@@ -44,6 +53,28 @@ def ordered_moves(board: chess.Board) -> list[chess.Move]:
     return sorted(board.legal_moves, key=lambda m: move_order_key(board, m), reverse=True)
 
 
+def score_to_tt(score: int, ply: int) -> int:
+    """Store mate scores relative to the node, not the root.
+
+    A mate score counts plies from the root, but a table entry can be reused
+    at a different ply. Storing "mate in N from here" keeps it correct.
+    """
+    if score > MATE_SCORE - 1000:
+        return score + ply
+    if score < -(MATE_SCORE - 1000):
+        return score - ply
+    return score
+
+
+def score_from_tt(score: int, ply: int) -> int:
+    """Convert a stored mate score back to plies from the root."""
+    if score > MATE_SCORE - 1000:
+        return score - ply
+    if score < -(MATE_SCORE - 1000):
+        return score + ply
+    return score
+
+
 @dataclass(frozen=True)
 class SearchResult:
     move: chess.Move | None
@@ -63,7 +94,8 @@ class Searcher:
         self.quiescence = quiescence
         self.nodes: int = 0
         self._deadline: float | None = None
-        self._root_first: chess.Move | None = None
+        # key -> (depth, score, bound, best move)
+        self._tt: dict[tuple, tuple[int, int, int, chess.Move | None]] = {}
 
     def search(
         self,
@@ -75,17 +107,20 @@ class Searcher:
         """Search with iterative deepening, up to `depth` plies or `time_limit` seconds.
 
         Searching depth 1, 2, 3, ... looks wasteful, but each pass is much
-        cheaper than the next, and its best move is searched first in the next
-        pass, which makes alpha-beta cut off sooner. It also means a move is
+        cheaper than the next, and its best moves (kept in the transposition
+        table) are searched first in the next pass, which makes alpha-beta cut
+        off sooner. It also means a move is
         always ready: when time runs out mid-iteration, that iteration is thrown
         away and the last completed one is returned. Depth 1 always completes.
 
         `on_iteration` is called after each completed depth (UCI prints info).
-        Node telemetry is reset per call so searches stay independent.
+        Node telemetry and the transposition table are reset per call, so a
+        search depends only on its position: results are reproducible and the
+        web API stays stateless.
         """
         self.nodes = 0
         self._deadline = None
-        self._root_first = None
+        self._tt.clear()
         start_time = time.perf_counter()
         result: SearchResult | None = None
 
@@ -107,7 +142,6 @@ class Searcher:
             if on_iteration is not None:
                 on_iteration(result)
 
-            self._root_first = result.move
             if result.move is None or abs(score) >= MATE_SCORE - current_depth:
                 break  # no legal moves, or a mate within the horizon: deeper cannot improve it
             if time_limit is not None:
@@ -150,14 +184,36 @@ class Searcher:
                 return self._quiesce(board, alpha, beta, ply), []
             return evaluate(board), []
 
+        # The same position is often reached by different move orders. If it was
+        # already searched at least this deep, reuse the result. The root is
+        # always searched, so the result always carries a move.
+        # _transposition_key() is python-chess's exact position key (pieces, side
+        # to move, castling, en passant). It is private API, but polyglot's
+        # zobrist_hash costs ~45us per call against ~2us, which would halve NPS.
+        key = board._transposition_key()
+        entry = self._tt.get(key)
+        tt_move = None
+        if entry is not None:
+            tt_depth, tt_score, bound, tt_move = entry
+            if ply > 0 and tt_depth >= depth:
+                tt_score = score_from_tt(tt_score, ply)
+                line = [tt_move] if tt_move is not None else []
+                if bound == EXACT:
+                    return tt_score, line
+                if bound == LOWER and tt_score >= beta:
+                    return tt_score, line
+                if bound == UPPER and tt_score <= alpha:
+                    return tt_score, line
+
+        original_alpha = alpha
         best_score = -INF
         best_line: list[chess.Move] = []
 
         moves = ordered_moves(board)
-        if ply == 0 and self._root_first in moves:
-            # Best move from the previous iteration goes first.
-            moves.remove(self._root_first)
-            moves.insert(0, self._root_first)
+        if tt_move is not None and tt_move in moves:
+            # The best move from an earlier (shallower) search goes first.
+            moves.remove(tt_move)
+            moves.insert(0, tt_move)
 
         for move in moves:
             board.push(move)
@@ -175,6 +231,17 @@ class Searcher:
                 alpha = score
             if alpha >= beta:
                 break
+
+        if best_score <= original_alpha:
+            bound = UPPER  # every move failed low: the true score is at most this
+        elif best_score >= beta:
+            bound = LOWER  # cut off: the true score is at least this
+        else:
+            bound = EXACT
+        if len(self._tt) >= TT_MAX_ENTRIES:
+            self._tt.clear()
+        best_move = best_line[0] if best_line else None
+        self._tt[key] = (depth, score_to_tt(best_score, ply), bound, best_move)
 
         return best_score, best_line
 
