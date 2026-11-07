@@ -48,7 +48,10 @@ class SearchResult:
 class Searcher:
     """Performs alpha-beta minimax search without module-level state."""
 
-    def __init__(self) -> None:
+    def __init__(self, quiescence: bool = True) -> None:
+        # quiescence=False gives plain fixed-depth alpha-beta; tests use it to
+        # compare against reference minimax.
+        self.quiescence = quiescence
         self.nodes: int = 0
 
     def search(self, board: chess.Board, depth: int) -> SearchResult:
@@ -89,6 +92,8 @@ class Searcher:
         if board.is_stalemate() or board.is_insufficient_material():
             return 0, []
         if depth == 0:
+            if self.quiescence:
+                return self._quiesce(board, alpha, beta, ply), []
             return evaluate(board), []
 
         best_score = -INF
@@ -112,3 +117,50 @@ class Searcher:
                 break
 
         return best_score, best_line
+
+    def _quiesce(self, board: chess.Board, alpha: int, beta: int, ply: int) -> int:
+        """Search captures until the position is quiet, then evaluate.
+
+        A fixed-depth search stops wherever the depth runs out, even halfway
+        through an exchange, so QxP looks like a free pawn when PxQ comes next.
+        Following captures to the end removes this horizon effect. The side to
+        move may also decline every capture ("stand pat"), so the static
+        evaluation is a lower bound. In check there is no standing pat: every
+        evasion is searched, which also lets quiescence see checkmates.
+
+        The node that calls this was already counted by _negamax, so nodes are
+        counted as each capture is made rather than on entry.
+        """
+        in_check = board.is_check()
+        if in_check:
+            best_score = -INF
+            moves = ordered_moves(board)
+            if not moves:
+                return -(MATE_SCORE - ply)
+        else:
+            best_score = evaluate(board)
+            if best_score >= beta:
+                return best_score
+            alpha = max(alpha, best_score)
+            moves = sorted(
+                board.generate_legal_captures(),
+                key=lambda m: move_order_key(board, m),
+                reverse=True,
+            )
+
+        for move in moves:
+            self.nodes += 1
+            board.push(move)
+            try:
+                score = -self._quiesce(board, -beta, -alpha, ply + 1)
+            finally:
+                board.pop()
+
+            if score > best_score:
+                best_score = score
+            if score > alpha:
+                alpha = score
+            if alpha >= beta:
+                break
+
+        return best_score

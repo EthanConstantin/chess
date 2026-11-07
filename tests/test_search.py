@@ -37,7 +37,8 @@ def reference_minimax(board, depth, ply=0):
 ])
 def test_alpha_beta_matches_plain_minimax(fen):
     board = chess.Board(fen)
-    result = Searcher().search(board, depth=3)
+    # Quiescence changes leaf scores, so it is switched off to compare against plain minimax.
+    result = Searcher(quiescence=False).search(board, depth=3)
     assert result.score == reference_minimax(chess.Board(fen), 3)
 
 

@@ -36,10 +36,10 @@ def test_promotion_ordered_early():
 def test_ordering_reduces_nodes(monkeypatch):
     """Same score as generator order, with fewer nodes: the whole point of ordering."""
     board = chess.Board(KIWIPETE)
-    ordered = Searcher().search(board, depth=3)
+    ordered = Searcher(quiescence=False).search(board, depth=3)
 
     monkeypatch.setattr(engine.search, "ordered_moves", lambda b: list(b.legal_moves))
-    unordered = Searcher().search(board, depth=3)
+    unordered = Searcher(quiescence=False).search(board, depth=3)
 
     assert ordered.score == unordered.score
     assert ordered.nodes < unordered.nodes
