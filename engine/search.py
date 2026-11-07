@@ -11,6 +11,30 @@ MATE_SCORE = 100_000
 INF = 10 * MATE_SCORE
 
 
+def move_order_key(board: chess.Board, move: chess.Move) -> int:
+    """Score a move for ordering: higher is searched first.
+
+    Alpha-beta prunes most when the best move is tried first. Captures are the
+    likeliest refutations, so they go first, ordered MVV-LVA (most valuable
+    victim, then least valuable attacker): PxQ before QxP. Promotions are
+    treated like captures of the promoted piece. Quiet moves keep generator order.
+    """
+    score = 0
+    if board.is_capture(move):
+        # En passant lands on an empty square; the victim is always a pawn.
+        victim = board.piece_type_at(move.to_square) or chess.PAWN
+        attacker = board.piece_type_at(move.from_square)
+        score += 1_000 + 10 * victim - attacker
+    if move.promotion:
+        score += 1_000 + 10 * move.promotion
+    return score
+
+
+def ordered_moves(board: chess.Board) -> list[chess.Move]:
+    """Return the legal moves, best-first by move_order_key."""
+    return sorted(board.legal_moves, key=lambda m: move_order_key(board, m), reverse=True)
+
+
 @dataclass(frozen=True)
 class SearchResult:
     move: chess.Move | None
@@ -70,7 +94,7 @@ class Searcher:
         best_score = -INF
         best_line: list[chess.Move] = []
 
-        for move in board.legal_moves:
+        for move in ordered_moves(board):
             board.push(move)
             try:
                 score, line = self._negamax(board, depth - 1, -beta, -alpha, ply + 1)
