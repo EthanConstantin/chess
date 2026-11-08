@@ -1,0 +1,2599 @@
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nh3 Nd4 9. Qe3 Nxb3 10. cxb3 Rh8 11. Ng1 Rg8 12. Qh3 Nxe4 13. Qxh7 Nf6 14. Qf5 Rh8 15. Qg5 Rg8 16. Qf5 Rh8 17. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nf3 Rh8 9. Ng5 Rf8 10. Nh3 Nd4 11. Qe3 Nxb3 12. cxb3 Rh8 13. Ng1 Rg8 14. Qh3 Nxe4 15. Qxh7 Nf6 16. Qf5 Rh8 17. Qg5 Rg8 18. Qf5 Rh8 19. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Qd7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Qd7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Rh8 9. Kd3 Rg8 10. Kd2 Ne4+ 11. Ke2 Qb5+ 12. Ke1 Qxb2 13. Nd2 Nc3 14. Qc1 Qxc1+ 15. Rxc1 Nxa2 16. Bb5+ Kd8 17. Ra1 Nb4 18. Rxa7 Nxc2+ 19. Ke2 Rh8 20. Ra5 Rg8 21. Ba4 Nb4 22. Rc5 Rh8 23. Rb5 e6 24. Rb6 Rg8 25. Rb5 Rh8 26. Rb6 Rg8 27. Rb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Rh8 9. Kd3 Rg8 10. Kd2 Rh8 11. Kd3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nh3 Nd4 9. Qe3 Nxb3 10. cxb3 Rh8 11. Ng1 Rg8 12. Qh3 Nxe4 13. Qxh7 Nf6 14. Qf5 Rh8 15. Qg5 Rg8 16. Qf5 Rh8 17. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nh3 Nd4 9. Qe3 Nxb3 10. cxb3 Rh8 11. Ng1 Rg8 12. Qh3 Nxe4 13. Qxh7 Nf6 14. Qf5 Rh8 15. Qg5 Rg8 16. Qf5 Rh8 17. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Qd7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Qd7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Ne4+ 9. Ke2 Qb5+ 10. Ke1 Qxb2 11. Nd2 Nc3 12. Qc1 Qxc1+ 13. Rxc1 Nxa2 14. Bb5+ Kd8 15. Ra1 Nb4 16. Rxa7 Nxc2+ 17. Ke2 Rh8 18. Ra5 Rg8 19. Ba4 Nb4 20. Rc5 Rh8 21. Rb5 e6 22. Rb6 Rg8 23. Rb5 Rh8 24. Rb6 Rg8 25. Rb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Ne4+ 9. Ke2 Qb5+ 10. Ke1 Qxb2 11. Nd2 Nc3 12. Qc1 Qxc1+ 13. Rxc1 Nxa2 14. Bb5+ Kd8 15. Ra1 Nb4 16. Rxa7 Nxc2+ 17. Ke2 Rh8 18. Ra5 Rg8 19. Ba4 Nb4 20. Rc5 Rh8 21. Rb5 e6 22. Rb6 Rg8 23. Rb5 Rh8 24. Rb6 Rg8 25. Rb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nh3 Nd4 9. Qe3 Nxb3 10. cxb3 Rh8 11. Ng1 Rg8 12. Qh3 Nxe4 13. Qxh7 Nf6 14. Qf5 Rh8 15. Qg5 Rg8 16. Qf5 Rh8 17. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nh3 Nd4 9. Qe3 Nxb3 10. cxb3 Rh8 11. Ng1 Rg8 12. Qh3 Nxe4 13. Qxh7 Nf6 14. Qf5 Rh8 15. Qg5 Rg8 16. Qf5 Rh8 17. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Qd7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "0-1"]
+[Termination "CHECKMATE"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Kf8 7. Qh5 Qe8 8. Nxh7+ Kg8 9. Qe5 Qc6 10. Ng5 Bxc3+ 11. bxc3 Qxc3+ 12. Ke2 Nbc6 13. Qf4 Nxd4+ 14. Kd1 Bf5 15. Bd3 Qxa1 16. Bxf5 Nexf5 17. Qxc7 Rf8 18. Qxb7 Qxa2 19. Qc7 Rh6 20. Qc5 Rc6 21. Qxf8+ Kxf8 22. Nh7+ Kg8 23. Nf6+ gxf6 24. Ke1 Qb1 25. Kd2 Qxc2+ 26. Ke1 Qxc1# 0-1
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Ne4+ 9. Ke2 Qb5+ 10. Ke1 Qxb2 11. Nd2 Nc3 12. Qc1 Qxc1+ 13. Rxc1 Nxa2 14. Bb5+ Kd8 15. Ra1 Nb4 16. Rxa7 Nxc2+ 17. Ke2 Rh8 18. Ra5 Rg8 19. Ba4 Nb4 20. Rc5 Rh8 21. Rb5 e6 22. Rb6 Rg8 23. Rb5 Rh8 24. Rb6 Rg8 25. Rb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Ne4+ 9. Ke2 Qb5+ 10. Ke1 Qxb2 11. Nd2 Nc3 12. Qc1 Qxc1+ 13. Rxc1 Nxa2 14. Bb5+ Kd8 15. Ra1 Nb4 16. Rxa7 Nxc2+ 17. Ke2 Rh8 18. Ra5 Rg8 19. Ba4 Nb4 20. Rc5 Rh8 21. Rb5 e6 22. Rb6 Rg8 23. Rb5 Rh8 24. Rb6 Rg8 25. Rb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nh3 Nd4 9. Qe3 Nxb3 10. cxb3 Rh8 11. Ng1 Rg8 12. Qh3 Nxe4 13. Qxh7 Nf6 14. Qf5 Rh8 15. Qg5 Rg8 16. Qf5 Rh8 17. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nf3 Rh8 9. Ng5 Rf8 10. Nh3 Nd4 11. Qe3 Nxb3 12. cxb3 Rh8 13. Ng1 Rg8 14. Qh3 Nxe4 15. Qxh7 Nf6 16. Qf5 Rh8 17. Qg5 Rg8 18. Qf5 Rh8 19. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nf5 Nxe4 7. Nxg7+ Bxg7 8. Nxe4 Rg8 9. Ng5 Bxb2 10. Bxb2 Rxg5 11. Bh8 Kf8 12. Bd4 Kg8 13. Be3 Qa5+ 14. Ke2 Bg4+ 15. f3 Rd5 16. Bd4 Nc6 17. fxg4 Nxd4+ 18. Kf2 Kh8 19. c4 Rg5 20. Qxd4+ Kg8 21. Qf4 Kf8 22. Qe4 Re8 23. Qxh7 Rxg4 24. Qh8+ Rg8 25. Qh7 Rg7 26. Qh8+ Rg8 27. Qh7 Rg7 28. Qh8+ 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Ndb5 Rg8 7. Nd4 Rh8 8. Ndb5 Rg8 9. Nd4 Rh8 10. Ndb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Nxc6 bxc6 7. Rg1 Rg8 8. Rh1 Rh8 9. Rg1 Rg8 10. Rh1 Rh8 11. Rg1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nf3 Ne7 6. Ng5 Qc7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Qd7 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 10. Ng5 Rh8 11. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "0-1"]
+[Termination "CHECKMATE"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nh3 Ne7 6. Ng5 Kf8 7. Qh5 Qe8 8. Nxh7+ Kg8 9. Qe5 Qc6 10. Ng5 Bxc3+ 11. bxc3 Qxc3+ 12. Ke2 Nbc6 13. Qf4 Nxd4+ 14. Kd1 Bf5 15. Bd3 Qxa1 16. Bxf5 Nexf5 17. Qxc7 Rf8 18. Qxb7 Qxa2 19. Qc7 Rh6 20. Qc5 Rc6 21. Qxf8+ Kxf8 22. Nh7+ Kg8 23. Nf6+ gxf6 24. Ke1 Qb1 25. Kd2 Qxc2+ 26. Ke1 Qxc1# 0-1
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Nb5 Rg8 6. Nc3 Rh8 7. Nb5 Rg8 8. Nc3 Rh8 9. Nb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. exd5 exd5 5. Ndf3 Rg8 6. Ng5 Rh8 7. N5h3 Rg8 8. Ng5 Rh8 9. N5h3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng5 Nh6 6. N5h3 Rg8 7. Ng5 Rh8 8. N5h3 Rg8 9. Ng5 Rh8 10. N5h3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nh3 Nh6 5. Ng5 Rg8 6. Nh3 Rh8 7. Ng5 Rg8 8. Nh3 Rh8 9. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 f8e7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Bh4 Rg8 7. Bg5 Rh8 8. Bh4 Rg8 9. Bg5 Rh8 10. Bh4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 d5c4"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. Ng5 Rg8 6. Nge4 Nxe4 7. Nxe4 Rh8 8. Ng5 Qd7 9. Ne4 Rg8 10. Ng5 Rh8 11. Ne4 Rg8 12. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nh3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Ng5 Rg8 5. Nh3 Rh8 6. Ng5 Rg8 7. Nh3 Rh8 8. Ng5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Nxd5 Qxd5 6. Nf3 Rg8 7. Ng5 Rh8 8. Nf3 Rg8 9. Ng5 Rh8 10. Nf3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "c2c4 e7e5 b1c3 g8f6 g1f3 b8c6"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Ng5 Rg8 5. Nge4 Nxe4 6. Nxe4 Rh8 7. Ng3 Rg8 8. Nh5 Rh8 9. Ng3 Rg8 10. Nh5 Rh8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Ne4+ 9. Ke2 Qb5+ 10. Ke1 Qxb2 11. Nd2 Nc3 12. Qc1 Qxc1+ 13. Rxc1 Nxa2 14. Bb5+ Kd8 15. Ra1 Nb4 16. Rxa7 Nxc2+ 17. Ke2 Rh8 18. Ra5 Rg8 19. Ba4 Nb4 20. Rc5 Rh8 21. Rb5 e6 22. Rb6 Rg8 23. Rb5 Rh8 24. Rb6 Rg8 25. Rb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "d2d4 d7d5 c1f4 g8f6 e2e3 c7c5"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Bxb8 Rxb8 5. dxc5 Qa5+ 6. Ke2 Qxc5 7. Kd3 Rg8 8. Kd2 Rh8 9. Kd3 Rg8 10. Kd2 Ne4+ 11. Ke2 Qb5+ 12. Ke1 Qxb2 13. Nd2 Nc3 14. Qc1 Qxc1+ 15. Rxc1 Nxa2 16. Bb5+ Kd8 17. Ra1 Nb4 18. Rxa7 Nxc2+ 19. Ke2 Rh8 20. Ra5 Rg8 21. Ba4 Nb4 22. Rc5 Rh8 23. Rb5 e6 24. Rb6 Rg8 25. Rb5 Rh8 26. Rb6 Rg8 27. Rb5 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d5 e4d5 d8d5 b1c3 d5a5"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nb5 Nh6 5. Nd4 Rg8 6. Nb5 Rh8 7. Nd4 Rg8 8. Nb5 Rh8 9. Nd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nh3 Rg8 5. Ng5 Rh8 6. Nh3 Rg8 7. Ng5 Rh8 8. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nxe4 dxe4 6. Nh3 Rg8 7. Nf4 Rh8 8. Nh3 Rg8 9. Nf4 Rh8 10. Nh3 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nh3 Nd4 9. Qe3 Nxb3 10. cxb3 Rh8 11. Ng1 Rg8 12. Qh3 Nxe4 13. Qxh7 Nf6 14. Qf5 Rh8 15. Qg5 Rg8 16. Qf5 Rh8 17. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 Bd6 6. Bb3 Rg8 7. Ng5 Rf8 8. Nf3 Rh8 9. Ng5 Rf8 10. Nh3 Nd4 11. Qe3 Nxb3 12. cxb3 Rh8 13. Ng1 Rg8 14. Qh3 Nxe4 15. Qxh7 Nf6 16. Qf5 Rh8 17. Qg5 Rg8 18. Qf5 Rh8 19. Qg5 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. Bd3 Rg8 6. Ng5 Rh8 7. Nh3 Rg8 8. Ng5 Rh8 9. Nh3 Rg8 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. Bxc6 dxc6 6. Nxe5 Bxc3 7. dxc3 Qxd1+ 8. Kxd1 Nxe4 9. Nd3 Rg8 10. Rg1 Rh8 11. Rh1 Rg8 12. Rg1 Rh8 13. Rh1 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.4-iterative-deepening"]
+[Black "v0.5-transposition-table"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2
+
+[Event "Harness Match"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "v0.5-transposition-table"]
+[Black "v0.4-iterative-deepening"]
+[Result "1/2-1/2"]
+[Termination "THREEFOLD_REPETITION"]
+[TimeControl "10+0.1"]
+[Opening "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 dxc6 6. Qxd8+ Kxd8 7. Bc4 Nxe4 8. Bxf7 Be7 9. Bh5 Rg8 10. Bf3 Bf5 11. Bh5 Rh8 12. Bf7 Rf8 13. Bh5 Nxf2 14. Rf1 Bg4 15. Bxg4 Nxg4 16. Rxf8+ Bxf8 17. Bg5+ Ke8 18. Bf4 Bd6 19. Bxd6 cxd6 20. h3 Ne3 21. Kd2 Nxg2 22. Kc3 Kf8 23. Kd4 Kg8 24. Ke4 Kh8 25. Kd4 Kg8 26. Ke4 Kh8 27. Kd4 1/2-1/2

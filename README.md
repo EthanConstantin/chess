@@ -11,6 +11,10 @@ and playable right in the browser.
 | Version | Feature | Elo | Games | Bench Nodes | NPS | Δ Elo |
 |---|---|---|---|---|---|---|
 | v0.1-baseline | Negamax + alpha-beta, material eval, fixed depth 3 | 1075 ± 50 | 200 | 362,643 | 28,780 | - |
+| v0.2-move-ordering | MVV-LVA move ordering | 1084 ± 46 | 200 | 47,880 | 24,807 | +9 |
+| v0.3-quiescence | Quiescence search | 1147 ± 49 | 200 | 218,359 | 21,003 | +63 |
+| v0.4-iterative-deepening | Iterative deepening + time management | 1206 ± 44 | 200 | 248,053 | 25,294 | +59 |
+| v0.5-transposition-table | Transposition table | 1171 ± 49 | 200 | 167,555 | 27,171 | -35 |
 <!-- ELO_TABLE:END -->
 
 ## What this project shows

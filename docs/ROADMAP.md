@@ -70,6 +70,31 @@ Build the harness **before** improving the engine, so that the baseline is recor
 4. Transposition table using `chess.polyglot.zobrist_hash`.
 5. *(Optional)* Killer moves and history heuristic, null-move pruning.
 
+**Status (steps 1–4 done, measured 2026-11-07, 200 games each at 10+0.1):**
+
+| Version | Elo | Bench nodes (d4) | Notes |
+|---|---|---|---|
+| v0.1-baseline | 1075 ± 50 | 362,643 | 4 time forfeits |
+| v0.2-move-ordering | 1084 ± 46 | 47,880 | 7.6× fewer nodes; still fixed depth 3, so no Elo change expected |
+| v0.3-quiescence | 1147 ± 49 | 218,359 | Checkmate losses 44 → 24, but 19 time forfeits (fixed depth, no clock) |
+| v0.4-iterative-deepening | 1206 ± 44 | 248,053 | Zero time forfeits; longest move 0.48 s |
+| v0.5-transposition-table | 1171 ± 49 | 167,555 | Within error of v0.4: no significant change |
+
+Findings:
+- Elo comes from v0.3 and v0.4 (+131 combined, outside the error bars). Ordering and the TT
+  are speed features: they cut nodes (7.6× and 1.5×), which matters once deeper searches
+  fit in the budget.
+- In-game NPS is about 9k (8 parallel games), against 27k in the idle bench, so the
+  engine reaches only depth ~3 per move. Search improvements are capped by Python speed
+  and the material-only evaluation.
+- Head-to-head v0.4 vs v0.5: 198 of 200 games were threefold repetitions (median 19
+  plies). With material-only evaluation every quiet move scores 0, so two versions of the
+  engine shuffle pieces until a repetition. Self-play cannot rank versions until Phase 3
+  adds positional terms. Use the anchor ladder until then.
+- The TT is keyed by python-chess's private `Board._transposition_key()`, not
+  `chess.polyglot.zobrist_hash` as first planned: zobrist_hash measured ~45 µs per call
+  against ~2 µs, which would have halved NPS.
+
 ### Phase 3: Evaluation
 1. Piece-square tables, with a tapered king table for middlegame and endgame.
 2. Pawn structure: passed, doubled and isolated pawns. A term is kept only if it gains
